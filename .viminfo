@@ -17,18 +17,20 @@
 $
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1734376527,,"wq"
+:w
+|2,0,1734376525,,"w"
+:30
+|2,0,1734376205,,"30"
 :q
 |2,0,1734325385,,"q"
 :q!
 |2,0,1734324109,,"q!"
-:w
-|2,0,1734324084,,"w"
 :Q
 |2,0,1734322739,,"Q"
 :0
 |2,0,1734321861,,"0"
-:wq
-|2,0,1732846037,,"wq"
 :100
 |2,0,1732679511,,"100"
 :s
@@ -91,8 +93,6 @@ $
 |2,0,1730995706,,"87"
 :110
 |2,0,1730955058,,"110"
-:30
-|2,0,1730955028,,"30"
 :17
 |2,0,1730954800,,"17"
 :34
@@ -252,34 +252,86 @@ $
 |3,0,36,0,1,0,1732485260,"s"
 
 # File marks:
-'0  3  18  ~/fall2024-comp206/midterm2/excersises/string.c
-|4,48,3,18,1734329568,"~/fall2024-comp206/midterm2/excersises/string.c"
-'1  1  0  ~/fall2024-comp206/midterm2/pointerex.c
-|4,49,1,0,1734325385,"~/fall2024-comp206/midterm2/pointerex.c"
-'2  19  8  ~/fall2024-comp206/assignments/hw4/total-size
-|4,50,19,8,1734324672,"~/fall2024-comp206/assignments/hw4/total-size"
-'3  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
-|4,51,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
-'4  85  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,52,85,0,1734324185,"~/fall2024-comp206/assignments/hw5/instructions.md"
-'5  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,53,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
-'6  185  7  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,54,185,7,1734324109,"~/fall2024-comp206/assignments/hw6/minicalc.c"
-'7  185  7  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,55,185,7,1734324109,"~/fall2024-comp206/assignments/hw6/minicalc.c"
-'8  2  18  ~/fall2024-comp206/assignments/hw6/test.c
-|4,56,2,18,1734324086,"~/fall2024-comp206/assignments/hw6/test.c"
-'9  13  0  ~/fall2024-comp206/assignments/hw6/Makefile
-|4,57,13,0,1734324069,"~/fall2024-comp206/assignments/hw6/Makefile"
+'0  29  217  ~/README.md
+|4,48,29,217,1734376527,"~/README.md"
+'1  1  39  ~/token.txt
+|4,49,1,39,1734375638,"~/token.txt"
+'2  3  18  ~/fall2024-comp206/midterm2/excersises/string.c
+|4,50,3,18,1734329568,"~/fall2024-comp206/midterm2/excersises/string.c"
+'3  1  0  ~/fall2024-comp206/midterm2/pointerex.c
+|4,51,1,0,1734325385,"~/fall2024-comp206/midterm2/pointerex.c"
+'4  19  8  ~/fall2024-comp206/assignments/hw4/total-size
+|4,52,19,8,1734324672,"~/fall2024-comp206/assignments/hw4/total-size"
+'5  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,53,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+'6  85  0  ~/fall2024-comp206/assignments/hw5/instructions.md
+|4,54,85,0,1734324185,"~/fall2024-comp206/assignments/hw5/instructions.md"
+'7  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
+|4,55,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
+'8  185  7  ~/fall2024-comp206/assignments/hw6/minicalc.c
+|4,56,185,7,1734324109,"~/fall2024-comp206/assignments/hw6/minicalc.c"
+'9  185  7  ~/fall2024-comp206/assignments/hw6/minicalc.c
+|4,57,185,7,1734324109,"~/fall2024-comp206/assignments/hw6/minicalc.c"
 
 # Jumplist (newest first):
+-'  29  217  ~/README.md
+|4,39,29,217,1734376527,"~/README.md"
+-'  23  0  ~/README.md
+|4,39,23,0,1734376198,"~/README.md"
+-'  1  0  ~/README.md
+|4,39,1,0,1734375647,"~/README.md"
+-'  1  39  ~/token.txt
+|4,39,1,39,1734375638,"~/token.txt"
+-'  1  39  ~/token.txt
+|4,39,1,39,1734375638,"~/token.txt"
+-'  3  18  ~/fall2024-comp206/midterm2/excersises/string.c
+|4,39,3,18,1734329568,"~/fall2024-comp206/midterm2/excersises/string.c"
+-'  3  18  ~/fall2024-comp206/midterm2/excersises/string.c
+|4,39,3,18,1734329568,"~/fall2024-comp206/midterm2/excersises/string.c"
+-'  3  18  ~/fall2024-comp206/midterm2/excersises/string.c
+|4,39,3,18,1734329568,"~/fall2024-comp206/midterm2/excersises/string.c"
 -'  3  18  ~/fall2024-comp206/midterm2/excersises/string.c
 |4,39,3,18,1734329568,"~/fall2024-comp206/midterm2/excersises/string.c"
 -'  1  0  ~/fall2024-comp206/midterm2/pointerex.c
 |4,39,1,0,1734325385,"~/fall2024-comp206/midterm2/pointerex.c"
 -'  1  0  ~/fall2024-comp206/midterm2/pointerex.c
 |4,39,1,0,1734325385,"~/fall2024-comp206/midterm2/pointerex.c"
+-'  1  0  ~/fall2024-comp206/midterm2/pointerex.c
+|4,39,1,0,1734325385,"~/fall2024-comp206/midterm2/pointerex.c"
+-'  1  0  ~/fall2024-comp206/midterm2/pointerex.c
+|4,39,1,0,1734325385,"~/fall2024-comp206/midterm2/pointerex.c"
+-'  1  0  ~/fall2024-comp206/midterm2/pointerex.c
+|4,39,1,0,1734325385,"~/fall2024-comp206/midterm2/pointerex.c"
+-'  1  0  ~/fall2024-comp206/midterm2/pointerex.c
+|4,39,1,0,1734325385,"~/fall2024-comp206/midterm2/pointerex.c"
+-'  1  0  ~/fall2024-comp206/midterm2/pointerex.c
+|4,39,1,0,1734325385,"~/fall2024-comp206/midterm2/pointerex.c"
+-'  1  0  ~/fall2024-comp206/midterm2/pointerex.c
+|4,39,1,0,1734325385,"~/fall2024-comp206/midterm2/pointerex.c"
+-'  19  8  ~/fall2024-comp206/assignments/hw4/total-size
+|4,39,19,8,1734324672,"~/fall2024-comp206/assignments/hw4/total-size"
+-'  19  8  ~/fall2024-comp206/assignments/hw4/total-size
+|4,39,19,8,1734324672,"~/fall2024-comp206/assignments/hw4/total-size"
+-'  19  8  ~/fall2024-comp206/assignments/hw4/total-size
+|4,39,19,8,1734324672,"~/fall2024-comp206/assignments/hw4/total-size"
+-'  19  8  ~/fall2024-comp206/assignments/hw4/total-size
+|4,39,19,8,1734324672,"~/fall2024-comp206/assignments/hw4/total-size"
+-'  19  8  ~/fall2024-comp206/assignments/hw4/total-size
+|4,39,19,8,1734324672,"~/fall2024-comp206/assignments/hw4/total-size"
+-'  19  8  ~/fall2024-comp206/assignments/hw4/total-size
+|4,39,19,8,1734324672,"~/fall2024-comp206/assignments/hw4/total-size"
+-'  19  8  ~/fall2024-comp206/assignments/hw4/total-size
+|4,39,19,8,1734324672,"~/fall2024-comp206/assignments/hw4/total-size"
+-'  19  8  ~/fall2024-comp206/assignments/hw4/total-size
+|4,39,19,8,1734324672,"~/fall2024-comp206/assignments/hw4/total-size"
+-'  19  8  ~/fall2024-comp206/assignments/hw4/total-size
+|4,39,19,8,1734324672,"~/fall2024-comp206/assignments/hw4/total-size"
+-'  19  8  ~/fall2024-comp206/assignments/hw4/total-size
+|4,39,19,8,1734324672,"~/fall2024-comp206/assignments/hw4/total-size"
+-'  19  8  ~/fall2024-comp206/assignments/hw4/total-size
+|4,39,19,8,1734324672,"~/fall2024-comp206/assignments/hw4/total-size"
+-'  19  8  ~/fall2024-comp206/assignments/hw4/total-size
+|4,39,19,8,1734324672,"~/fall2024-comp206/assignments/hw4/total-size"
 -'  19  8  ~/fall2024-comp206/assignments/hw4/total-size
 |4,39,19,8,1734324672,"~/fall2024-comp206/assignments/hw4/total-size"
 -'  19  8  ~/fall2024-comp206/assignments/hw4/total-size
@@ -304,6 +356,102 @@ $
 |4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
 -'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
 |4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  118  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,118,0,1734324654,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
+-'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
+|4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
 -'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
 |4,39,300,0,1734324190,"~/fall2024-comp206/assignments/hw5/minicalc.c"
 -'  300  0  ~/fall2024-comp206/assignments/hw5/minicalc.c
@@ -326,156 +474,33 @@ $
 |4,39,85,0,1734324185,"~/fall2024-comp206/assignments/hw5/instructions.md"
 -'  85  0  ~/fall2024-comp206/assignments/hw5/instructions.md
 |4,39,85,0,1734324185,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  85  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,85,0,1734324185,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  85  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,85,0,1734324185,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  85  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,85,0,1734324185,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  85  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,85,0,1734324185,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  85  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,85,0,1734324185,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  85  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,85,0,1734324185,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  85  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,85,0,1734324185,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  85  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,85,0,1734324185,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  85  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,85,0,1734324185,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  85  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,85,0,1734324185,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  85  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,85,0,1734324185,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  85  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,85,0,1734324185,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  85  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,85,0,1734324185,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  1  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,1,0,1734324149,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  1  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,1,0,1734324149,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  1  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,1,0,1734324149,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  1  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,1,0,1734324149,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  1  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,1,0,1734324149,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  1  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,1,0,1734324149,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  1  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,1,0,1734324149,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  1  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,1,0,1734324149,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  1  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,1,0,1734324149,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  1  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,1,0,1734324149,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  1  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,1,0,1734324149,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  1  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,1,0,1734324149,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  1  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,1,0,1734324149,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  1  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,1,0,1734324149,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  1  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,1,0,1734324149,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  1  0  ~/fall2024-comp206/assignments/hw5/instructions.md
-|4,39,1,0,1734324149,"~/fall2024-comp206/assignments/hw5/instructions.md"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  148  1  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,148,1,1734324132,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  185  7  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,185,7,1734324111,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  185  7  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,185,7,1734324111,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  185  7  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,185,7,1734324111,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  185  7  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,185,7,1734324111,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  185  7  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,185,7,1734324111,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  185  7  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,185,7,1734324111,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  185  7  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,185,7,1734324111,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  185  7  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,185,7,1734324111,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  185  7  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,185,7,1734324111,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  185  7  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,185,7,1734324111,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  185  7  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,185,7,1734324111,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  185  7  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,185,7,1734324111,"~/fall2024-comp206/assignments/hw6/minicalc.c"
--'  185  7  ~/fall2024-comp206/assignments/hw6/minicalc.c
-|4,39,185,7,1734324111,"~/fall2024-comp206/assignments/hw6/minicalc.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/README.md
+	*	1734376525	0
+	"	29	217
+	^	29	218
+	.	30	0
+	+	3	156
+	+	6	115
+	+	3	157
+	+	9	99
+	+	12	114
+	+	15	94
+	+	16	55
+	+	20	220
+	+	22	13
+	+	23	294
+	+	26	428
+	+	30	0
+
+> ~/token.txt
+	*	1734375636	0
+	"	1	39
+	^	1	40
+	.	1	37
+	+	1	37
 
 > ~/fall2024-comp206/midterm2/excersises/string.c
 	*	1734325968	0
@@ -2490,17 +2515,3 @@ $
 	^	30	48
 	.	30	0
 	+	30	0
-
-> ~/fall2024-comp206/assignments/hw4/testdir/two/twotwo/II
-	*	1727998320	0
-	"	30	47
-	^	30	48
-	.	30	0
-	+	30	0
-
-> ~/fall2024-comp206/assignments/hw4/testdir/two/twoone/II
-	*	1727998299	0
-	"	30	47
-	^	30	48
-	.	30	29
-	+	30	29
