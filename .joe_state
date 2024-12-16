@@ -11,6 +11,8 @@ done
 files
 	"/home/2024/mdejon1/fall2024-comp206/assignments/hw5/.git/COMMIT_EDITMSG\n"
 	"/home/2024/mdejon1/fall2024-comp206/assignments/hw7/.git/COMMIT_EDITMSG\n"
+	"/home/2024/mdejon1/fall2024-comp206/assignments/hw1/.git/COMMIT_EDITMSG\n"
+	"* Build Log *\n"
 done
 find
 done
@@ -30,10 +32,14 @@ yank
 	"q"
 	"this is "
 	"qq"
+	"qq"
+	" "
 done
 file_pos
 	0 "/home/2024/mdejon1/fall2024-comp206/assignments/hw5/.git/COMMIT_EDITMSG"
 	0 "/home/2024/mdejon1/fall2024-comp206/assignments/hw7/.git/COMMIT_EDITMSG"
+	1 "* Build Log *"
+	0 "/home/2024/mdejon1/fall2024-comp206/assignments/hw1/.git/COMMIT_EDITMSG"
 done
 colors
 	"xterm-256color" "default"
