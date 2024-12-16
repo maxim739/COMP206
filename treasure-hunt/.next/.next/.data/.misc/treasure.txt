@@ -1,0 +1,7 @@
+You look closely at the treasure and see that it's a fake.
+
+The locked door was designed to mislead you...
+
+Perhaps there's more to the unlock program?
+
+Go back to the previous room, and examine the door closely. (Read the file `unlock` using `cat`.)

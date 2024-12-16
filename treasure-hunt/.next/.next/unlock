@@ -1,0 +1,26 @@
+#!/bin/bash
+
+if [ -f .data/.lock ] ; then
+    echo "The door is locked."
+    echo "(To use your lockpick, delete the file .lock in the .data directory.)"
+    echo "(Use just one command to do this. Don't use cd first.)"
+    exit 1
+fi
+
+if [ -d .real-next ] ; then
+    echo "The next room is already unlocked."
+    echo "(Enter the .real-next directory to proceed.)"
+    exit 0
+fi
+
+echo "*Click*"
+echo "The door to the next room unlocks."
+echo "Enter the directory .real-next to proceed."
+cp -r .data/.misc .real-next
+exit 0
+
+# As you look closely at the lock, you notice an intricate pattern engraved on it.
+# In the previous room, there was a painting with a similar pattern on the frame.
+#
+# Return to the room before this one (parent directory) and look at the painting:
+# cat .painting/.info

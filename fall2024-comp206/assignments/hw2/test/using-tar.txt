@@ -1,0 +1,36 @@
+Q1.1 - How do you use tar to create an archive?
+	To create an archive, you must run the tar program with the -c command for 'create' and then
+	the archive file and where you want to place it, and then the directory or files you want to
+	archive
+
+	tar -c [path and filename of archive] [the directory or file to archive]
+
+Q1.2 - How do you use tar to list the contents of an archive?
+	To use tar to list the contents of an archive you can use the --list option for tar
+
+	tar --list --file=[archive file] [directory in archived file]
+
+Q1.3 - How do you use tar to extract the entire contents of an archive?
+	To extract the entire archive you only need the archive file name, without and induvidual
+	file names or other arguments
+
+	tar -xvf collection.tar
+
+	the -v flag is not needed, but represents verbose, which allows you to see whats going on
+	behind the hood
+
+Q1.4 - By default, where do all of the files get extracted to?
+	By default, if the files have their absolute paths, then they will extract themselves back to
+	the path they had before they were archived, this means that you could overwrite updated
+	files when you extract a tar.gz
+
+Q1.5 - What is the significance of the two extensions .tar.gz?
+	.tar stands for tape archive which is a format used to store many files, and .gz stands for 
+	gzip, which is a way to compress .tar files into a smaller file
+
+Q1.6 - What is a tarbomb? Why could extracting one be dangerous?
+	A tarbomb is when someone extracts a lot of files in a tar file into a directory, and all of
+	the files extract everywhere, sometimes overwriting existing files and ending up all over the
+	place. You can save yourself from this mishap by looking at the tar file using -t to look at
+	the files within the tar file before extracting it, or by moving the tar file to a new
+	directory so that it will only explode in one place.	 

@@ -1,0 +1,20 @@
+Upon entering the new room, you spot a board on the wall with some useful notes.
+You copy down this information since you think it might come in handy later. (Like on a test!)
+
+```
+# Hidden files
+
+In Unix-like operating systems, hidden files (or directories) are those whose name begins with a
+dot, like `.next`
+
+When using `ls` (among other things) by itself, hidden files are not shown.
+
+The `-a` (dash a) we added to ls is called a _switch_ or a _flag_ or an _option._
+It modified the behaviour of ls to show _all_ files (that's what the `a` in `-a` stands for.)
+
+Each program has its own set of available flags.
+```
+
+You notice a door at the back of the room.
+
+- Use `cd .next` to enter the next room in the maze.

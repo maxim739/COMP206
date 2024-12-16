@@ -1,0 +1,73 @@
+#! /bin/bash
+# Get hw will automatically clones the homework assignment from git and makes new subdir
+
+# can be ran from any directory
+# When called correctly, can be ran when target dir does not exist and throws an error when the target
+	# Dir already exists
+# When ran as -h prints out one line explination of how it works
+# when ran without, or with too many arguments, prints an error message prompting to use -h
+# use test and $# which contains the count of command line arguments
+
+# Checks if target dir already exists, and if it does prompts user to see if they want to go over it
+	# or not - need to use read command to accomplish
+# records output of kit clone into temp file man mktemp - checks if clone succedes, and only prints
+	# the output if the clone fails
+
+
+NUM_COMMANDS=$#
+# echo $1
+
+if [ ! $NUM_COMMANDS -eq 1 ] ; then
+	echo "User inputted too many or too few arguments, run get-assignment -h for more information"
+	exit 0
+elif [ "-h" = "$1" ] ; then
+       printf "Please follow the form: get-assignment hw[homework number] \nFor example: get-assignment hw2 \n"
+       exit 0
+elif [[ "$1" != "hw"[0-8] ]] ; then
+	echo "Please enter a valid homework number between 0 and 8"
+	exit 0
+# if the directory already exists
+#elif cd ~/fall2024-comp206/assignments/$1 ; then
+elif [ -d ~/fall2024-comp206/assignments/$1 ] ; then
+	# echo "The directory already exists"
+	# Read command, do you want to continue saving over existing directory?
+	while read -r -p "This directory already exists. Do you want to overwrite the existing directory? [y/n]: " INPUT1 ; do
+		if [ $INPUT1 = 'y' ] ; then
+			rm -r ~/fall2024-comp206/assignments/$1
+	#		echo "just erased the existing dir"
+			break
+			# Git clone that directory here
+			# Could just break here and go down to later down in the script where we just clone
+		elif [ $INPUT1 = 'n' ] ; then
+			echo "The repository will not be cloned, exiting."
+			exit 0
+		else
+			echo "Please enter either a lowercase y or n and then press enter"
+		fi
+	done
+#else
+	# echo "The directory dosen't already exist, just go ahead"
+fi
+
+# The directory does not already exist, go ahead with making the directory and 
+# Git clone and port output to mktemp
+echo $(pwd)
+cd ~/fall2024-comp206/
+tmp_dir=$(mktemp -d -t gitclone-XXXXXX)
+# echo $tmp_dir
+git clone https://gitlab.cs.mcgill.ca/jerrin/f24comp206-$1 ~/fall2024-comp206/assignments/$1 > $tmp_dir/output 2>&1
+
+
+#exit other than 0 print file to terminal
+if [ $? -eq 0 ] ; then
+	rm -r $tmp_dir	
+	exit 0
+else
+	cat $tmp_dir/output
+	exit 1
+fi
+
+
+#otherwise delete the file and exit
+
+exit 0

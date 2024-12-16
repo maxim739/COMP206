@@ -1,0 +1,14 @@
+You need to find a way to unlock the door. Fortunately, you brought your lockpicks.
+
+To access the next room, you need to run the program `unlock` that you might have spotted.
+
+When running programs installed system-wide, we just type its name (followed by any arguments).
+
+However, here the program `unlock` is a file in the current working directory.
+
+To run a specific file as a program, you have to use a path to it that involves at least one slash.
+
+**Without changing directories,** how can you form a path involving at least one slash, leading to
+the file `unlock`?
+
+If you get stuck, run `cat .data/.hint`

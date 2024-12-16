@@ -1,0 +1,12 @@
+I tried to commit using
+git add .
+git commit -m " "
+from my hw2 directory but it didn't work, so I re-cloned the hw2 gitlabs and moved my relevent
+files to there and did the process there, so I hope that works.
+
+I got the
+fatal: not a git repository (or any parent up to mount point /) 
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+error and I didn't know what to do :|
+
+sorry

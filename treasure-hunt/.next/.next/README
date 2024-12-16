@@ -1,0 +1,25 @@
+# New commands unlocked
+
+It's dangerous to go alone. Take these:
+
+- `cp SRC DST`
+    - copies the entry located at SRC to DST
+    - only copies a single _file_ by default, not directories
+    - use `-r` option to Recursively copy directories and their contents
+- `rm FILE`
+    - ReMoves an file. The deletion is permanent and the file cannot be recovered.
+    - only removes a single _file_ by default, not directories
+    - use `-r` option to Recursively delete directories and their contents
+- `mv SRC DST`
+    - MoVes an entry from SRC to DST
+    - the entry can be either a file or a directory; no `-r` is needed.
+    - this is also used to rename entries
+- `rmdir DIR`
+    - ReMoves a DIRectory.
+    - The directory must be empty for this to succeed.
+
+(No really, take notes on those commands.)
+
+You notice a door at the back of the room, but it's locked...
+
+Run `cat .data/.info`

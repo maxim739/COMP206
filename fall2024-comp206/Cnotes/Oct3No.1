@@ -1,0 +1,70 @@
+C is object oriented
+
+C uses array as a string data types
+main returns an int instead of a string like java
+returns an error code at the end of a function
+	return 0 means exit 0, successful
+
+C is compiled directly to machine code
+	just in time compilation is pretty cool
+
+No classes
+
+we use gcc compiler
+then you can run the generated machine code program out of compiler
+we really use C because unix was written in C
+
+C17 is the current version
+
+Structure:
+include libraries
+main function - where it starts running from
+	main must be at the bottom because they have to be declared before they
+		can be called
+		You can also promise that you're going to define it later
+	Statements must end with semicolons
+
+Directives
+Functions
+Main Function
+
+stdio.h is the standard input/output library (printf or getc)
+
+declare variables without assigning values
+	then you use them and assign values
+
+int main (void)
+	function returns an int
+		often is int because it returns an exit code
+	the function takes no arguments
+
+puts - returns a literal string
+printf - formatted string, good for many types
+
+gcc will default merge all files into single excacutable
+	-o will let you rename the file output
+
+to run programs that are not in your path you must give absolute path so ./script
+
+if you compile a program the compilation is not portable between machines or even
+	software versions (backwards compatibility)
+The portability is in source code, not the compiled code
+
+_______________________
+
+puts - print something automaticaly w new line
+puts("Hello World")
+if you put \n on end then you would do 2 new lines
+\r carriage return 
+\a is alarm which is cool
+\b backspace non desturctive
+
+
+c = getc(stdin);  - returns an integer (-1) but returns the ASCII rep of the char
+
+errors are sent to standard error which could go to a file
+you could get really long errors
+
+gcc -Wall
+	warns you for everything gcc has an error for
+-Werror - stops C from running unless there aren't any errors

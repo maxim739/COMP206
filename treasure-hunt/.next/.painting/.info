@@ -1,0 +1,5 @@
+Something seems off about this painting... you decide to take it off the wall.
+
+(Move `.hole` that's in the `.painting` directory into the current directory.)
+
+There is a hole behind the painting! Go into it `cd .hole`

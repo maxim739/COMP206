@@ -1,0 +1,15 @@
+#!/bin/bash
+
+N=$1
+FILE=$2
+
+cat "$FILE" | while read line ; do
+	if [ ! -f "$line" ] ; then
+		echo "warning: $line does not exist" >&2
+		contine
+	fi
+
+	cat "$line"
+done | grep '^completed,' | cut -d , -f 2 | sort -n | tail -n "$N"
+
+# Or you could store in a variable and then use function instead of one long pipe

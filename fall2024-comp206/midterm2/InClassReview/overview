@@ -1,0 +1,106 @@
+Theory:
+- C data types
+	- Struct size is the size of all of its members summed - (min amt mem)
+		- Padding may make this size larger for machine performance
+	- Union size is the size of it's largets member
+	- char (1) int (4) float (4) double (8)
+	- pointer size - addresses 64 bits so 8 bytes on 64 arcitecture, so it depends
+		on arcitecture but 8bytes for us
+	- for smaller types better to pass a value, as the pointer is larger than that data
+		- but for massive sizes its better to pass a pointer so that you don't have 
+			to deal with all of that data
+	- modifiers: short/long
+		- short int 2 bytes
+	- signedness: unsigned vs signed - same size but different ranges
+	- struct and union
+		- copying a struct will just copy the data, they are independent, don't refrence
+			the same memory
+
+- C compilation process and make files
+	- make figures out which file is newer using timestamps and runs the dependencies when the
+		independent are newer
+	- the default target is the one at the top
+		look to see how we can change this
+C compilation process
+	- each .c file compiled into a .o file, preprocessor runs (macro)
+	- each stage in the compilation process should be known
+	- Linking: assemble all .ofiles together + stdlib+ any other libs 
+
+```makefiles
+minicalc: minicalc.c
+	gcc -o minicalc minicalc.c
+
+__________
+or could do - if you have a very large c file with a lot of linking used, more efficient to do
+	this way because you only have to recompile one file when you modify only one file
+	instead of recompiling all of the files used for the end product
+minicalc: minicalc.o
+	gcc -o minicalc minicalc.o
+
+minicalc.o: minicalc.c
+	gcc -o minicalc.o -c minicalc.c
+
+Use dependency ordering to make sure the dependent things exist before the target is ran
+.PHONY test	- make sure that test is not a file, so don't check if it exists
+test: minicalc
+	./run-tests
+	
+	
+- Stack vs heap
+	- Handle pointers heap vs stack, what is scope/global
+	- memory not freed automatically when dynamic memory
+	- Look at using a structure with dynamic array (in class ex)
+	- make sure pointers always point to things that are alive, and when
+		they die make sure you can't access them anymore
+- Makefile
+
+Excersises:
+- add up all digits in first command line argument (ASCII, string handling)
+- add up all space-seperated numbers in first command-line argument (strtol, strings)
+- switch to reading from a file specified in first-command line argument (file IO)
+- impliment a dynamic array of integers (dynamic memory, structs)
+- iterating through arrays
+
+Methods to know how to use:
+look at ascii table and using the codes
+try to return and have arguments as inputs to structs, mess aru=ound w them
+look at accessing the same value by having two pointers point to same location
+fgets
+fgetc
+fopen
+enum
+alloc, free
+printf
+strcpy
+strtol
+structs
+sting methods
+file IO
+
+Cheat sheet handwritten, one side, anything
+
+To pass an array with unknown lenth just pass address and length to the function
+
+```c
+These are all equivalent, because we go 0 spots from a
+Which is the same as a spots from a
+a[0]
+*(a+0)
+*(0+a)
+0[a]
+
+A[N]
+*(A+N)
+
+```c
+Don't want to go up the stack
+Declaring variables take up space in the stack
+	If never initialized, dosen't actually clear it
+int a;
+some_function(a);
+
+char buf[1024];
+fgets(buf, 1024, stdin);
+
+
+```c

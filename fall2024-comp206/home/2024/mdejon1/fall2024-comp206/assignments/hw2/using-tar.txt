@@ -1,0 +1,23 @@
+Q1.1 - How do you use tar to create an archive?
+	To create an archive, you must run the tar program with the -c command for 'create' and then
+	the archive file and where you want to place it, and then the directory or files you want to
+	archive
+
+	tar -c [path and filename of archive] [the directory or file to archive]
+
+Q1.2 - How do you use tar to list the contents of an archive?
+	To use tar to list the contents of an archive you can use the --list option for tar
+
+	tar --list --file=[archive file] [directory in archived file]
+
+Q1.3 - How do you use tar to extract the entire contents of an archive?
+	To extract the entire archive you only need the archive file name, without and induvidual
+	file names or other arguments
+
+	tar -xvf collection.tar
+
+	the -v flag is not needed, but represents verbose, which allows you to see whats going on
+	behind the hood
+
+Q1.4 - By default, where do all of the files get extracted to?
+	

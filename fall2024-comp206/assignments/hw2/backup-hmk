@@ -1,0 +1,21 @@
+#! /bin/bash
+# The shebang that lets me run bin programs
+
+DATE=$(date -Iseconds | cut -c -19)
+NAME="assignments-$DATE.tar.gz"
+#HERE=$(pwd)
+
+#echo "we are here in $HERE"
+
+if  cd backups > /dev/null 2>&1; then
+	echo "Created backup: backups/$NAME"
+	#echo "There is a dir already, lets go"
+	#echo $(ls)
+else
+	echo "Created backup: backups/$NAME"
+	mkdir backups
+fi
+
+tar -cf ~/fall2024-comp206/backups/$NAME ~/fall2024-comp206/assignments > /dev/null 2>&1
+
+exit 0
